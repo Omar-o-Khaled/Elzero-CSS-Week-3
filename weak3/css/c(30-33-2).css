@@ -1,0 +1,40 @@
+div{
+    width: 400px;
+    background-color: #eeeeee;
+    margin: 50px auto;
+    border: 3px solid;
+    border-color: red #2196f3;
+    padding: 20px;
+    position: relative;
+    font-family: sans-serif;
+}
+
+div span{
+    position: absolute;
+    background-color: #2196f3;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.top-left{
+    left: -10px;
+    top: -10px;
+    border-color: none red;
+    border-right: 2px solid red;
+}
+.bottom-left{
+    left: -10px;
+    bottom: -10px;
+    border-right: 2px solid red;
+}
+.top-right{
+    top: -10px;
+    right: -10px;
+    border-left: 2px solid red;
+}
+.bottom-right{
+    bottom: -10px;
+    right: -10px;
+    border-left: 2px solid red;
+}

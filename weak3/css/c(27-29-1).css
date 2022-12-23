@@ -1,0 +1,45 @@
+.parent{
+    background-color: rgb(211, 23, 23);
+    width: 800px;
+}
+
+.parent div{
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: rgb(116, 10, 10);
+    float: left;
+    color: #fff;
+
+}
+
+
+.parent .full{
+    width: calc(100% - (15px*2));
+}
+
+
+.parent .two{
+    width: calc((100% - (15px*3))/2);
+
+}
+
+
+.parent .three{
+    width: calc((100% - (15px*4))/3);
+    
+}
+
+.parent .four{
+    width: calc((100% - (15px*5))/4);
+    margin-bottom: 15px;
+}
+
+.parent .child{
+    clear: both;
+}
